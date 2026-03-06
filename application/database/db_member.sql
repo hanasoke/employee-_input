@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 05, 2026 at 09:06 AM
+-- Generation Time: Mar 06, 2026 at 05:45 AM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.2.33
 
@@ -44,7 +44,11 @@ CREATE TABLE `member` (
 --
 
 INSERT INTO `member` (`id`, `handphone`, `nama`, `alamat`, `agama`, `hobby`, `thn_lahir`, `umur`, `created_at`) VALUES
-(4, '085819536158', 'Hanas Bayu Pratama', 'komaDSAd', 'Islam', 'Musik, Olahraga', 2013, 13, '2026-03-05 07:17:02');
+(8, '81732424298', 'Nakano Itsuki', 'Jl Saiya No 89', 'Hindu', 'Musik, Kesenian', 2001, 25, '2026-03-06 04:40:21'),
+(9, '81642738232', 'Nakano Yotsuba', 'Jl Kawagakure No 89', 'Budha', 'Olahraga, Makan, Tidur', 2001, 25, '2026-03-06 04:41:15'),
+(10, '8132712390998', 'Nakano Miku', 'Jl Sunagakure No 78', 'Kristen', 'Games', 2001, 25, '2026-03-06 04:41:48'),
+(11, '81782381292', 'Mitsuba AOI', 'Jl Amegakure No 89', 'Islam', 'Musik, Olahraga, Kesenian, Games', 2001, 25, '2026-03-06 04:43:19'),
+(12, '628773457585', 'Ajeng Utami', 'Jl Ki Hadjar Dewantara No 76', 'Islam', 'Musik, Olahraga, Kesenian, Games, Otomotif, Makan, Tidur', 1999, 27, '2026-03-06 04:44:09');
 
 --
 -- Indexes for dumped tables
@@ -64,7 +68,7 @@ ALTER TABLE `member`
 -- AUTO_INCREMENT for table `member`
 --
 ALTER TABLE `member`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
